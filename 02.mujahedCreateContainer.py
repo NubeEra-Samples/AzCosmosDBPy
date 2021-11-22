@@ -1,4 +1,4 @@
-from azure.cosmos import CosmosClient, exceptions
+from azure.cosmos import CosmosClient, exceptions,PartitionKey
 import os
 
 os.environ['ACCOUNT_URI']="https://acc1031.documents.azure.com:443/"
